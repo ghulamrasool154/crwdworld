@@ -1,0 +1,138 @@
+#Introductionrwdpoints .bottom p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #262626;
+  font-weight: 500;
+  text-align: justify;
+}
+
+#Introductionrwdpoints .top {
+  background-color: #f2f2f2;
+}
+.top .crwdpoints-center img {
+  max-width: 100%;
+}
+
+.top .crwdpoints-right,
+.top .crwdpoints-left {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.crwdpoints-left .content p,
+.crwdpoints-right .content p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #262626;
+  font-weight: 500;
+  text-align: end;
+}
+.crwdpoints-right .content p {
+  text-align: start;
+}
+
+.crwdpoints-left .responsive-img-crdwpoins {
+  display: none;
+}
+
+/* 
+.crwdpoints-wrapper .crwdpoints-center img{
+    max-width: 100%;
+}
+.top .crwdpoints-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+.crwdpoints-wrapper .crwdpoints-left,
+.crwdpoints-wrapper .crwdpoints-center,
+.crwdpoints-wrapper .crwdpoints-right{
+    width: 30%;
+}
+ */
+.Introductiontocrwdpoint span.cw {
+  font-size: 40px ;
+  line-height: 50px;
+}
+ .Introductiontocrwdpoint{
+  background: linear-gradient(
+    90deg,
+    rgba(104, 22, 205, 10) 0%,
+    rgba(56, 94, 241, 1) 36%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 50px;
+  font-family: "Montserrat", sans-serif;
+ }
+
+@media screen and (max-width: 1200px) {
+  .crwdpoints-left .content p,
+  .crwdpoints-right .content p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .top .crwdpoints-right,
+  .top .crwdpoints-left {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 993px) {
+
+  .Introductiontocrwdpoint span.cw ,
+  .Introductiontocrwdpoint {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .top .crwdpoints-right,
+  .top .crwdpoints-left {
+    height: min-content;
+  }
+
+  .top .crwdpoints-center {
+    display: none;
+  }
+  .crwdpoints-left .responsive-img-crdwpoins {
+    display: block;
+   margin:  auto auto 30px auto;;
+    width: 400px;
+    
+  }
+  .crwdpoints-left .content p,
+  .crwdpoints-right .content p {
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 600px) {
+  #crwdpoints .bottom p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .crwdpoints-left .responsive-img-crdwpoins {
+
+
+    width: auto;
+    
+  }
+  .Introductiontocrwdpoint span.cw ,
+  .Introductiontocrwdpoint {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Introductiontocrwdpoint span.cw ,
+  .Introductiontocrwdpoint {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

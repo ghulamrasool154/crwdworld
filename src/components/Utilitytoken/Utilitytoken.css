@@ -1,0 +1,109 @@
+/* background: linear-gradient( 90deg, rgba(104, 22, 205, 10) 0%, rgba(56, 94, 241, 1) 36% ); */
+
+#Utilitytoken .top {
+  background: linear-gradient(
+    90deg,
+    rgba(104, 22, 205, 10) 0%,
+    rgba(56, 94, 241, 1) 36%
+  );
+}
+section#Utilitytoken .heading h2 {
+  -webkit-text-fill-color: white;
+}
+
+#Utilitytoken .utility-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* margin-top: 50px; */
+  height: 100%;
+}
+
+.utility-wrapper .u-left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 220px;
+}
+
+.utility-wrapper p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  color: white;
+}
+.utility-wrapper .u-left-side,
+.utility-wrapper .u-center-side,
+.utility-wrapper .u-right-side {
+  width: 30%;
+}
+.utility-wrapper .u-center-side {
+  text-align: center;
+}
+.utility-wrapper .u-left-side {
+  text-align: right;
+}
+
+.utility-wrapper .u-right-side {
+  text-align: left;
+}
+
+#Utilitytoken .bottom p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #262626;
+  font-weight: 500;
+  text-align: justify;
+}
+img.img-fluid.diktop-circle-img {
+  display: block;
+  max-width: 100%;
+}
+img.img-fluid.mobile-circle-img {
+  display: none;
+  max-width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .utility-wrapper p {
+    font-size: 15px;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 993px) {
+  .utility-wrapper {
+    flex-direction: column;
+  }
+  img.img-fluid.diktop-circle-img {
+    display: none;
+    max-width: 100%;
+  }
+  #Utilitytoken .utility-wrapper {
+    height: auto;
+  }
+
+  img.img-fluid.mobile-circle-img {
+    display: none;
+    max-width: 100%;
+  }
+
+  .utility-wrapper .u-left-side {
+    min-height: 130px;
+  }
+  .utility-wrapper .u-left-side,
+  .utility-wrapper .u-center-side,
+  .utility-wrapper .u-right-side {
+    width: 100%;
+    text-align: left;
+  }
+  .utility-wrapper .u-center-side {
+    /* margin: 20px 0; */
+  }
+}
+@media screen and (max-width: 600px) {
+  #Utilitytoken .bottom p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}

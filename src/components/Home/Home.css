@@ -1,0 +1,14 @@
+section#home {
+  background-image: url("../../assests/images/testinggg.png");
+  height: 100vh;
+}
+
+section#home .logo {
+  width: 200px;
+  max-width: 100%;
+  margin: auto;
+}
+
+section#home .logo img {
+  width: 100%;
+}

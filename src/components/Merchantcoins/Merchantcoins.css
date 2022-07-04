@@ -1,0 +1,75 @@
+.merchantcoins-content .mec-disc p,
+#Merchantcoins .top p {
+  font-family: "Montserrat";
+  font-size: 20px;
+  color: black;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: justify;
+  /* margin: 0; */
+}
+#Merchantcoins .top {
+  padding-bottom: 100px;
+}
+
+/*  bottom section start */
+#Merchantcoins .bottom {
+  background-color: #f2f2f2;
+}
+
+.merchantcoins-content {
+  display: flex;
+  width: 100%;
+}
+
+.merchantcoins-content .mec-img {
+  width: 20%;
+}
+
+.merchantcoins-content .mec-disc h2 {
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 35px;
+}
+.merchantcoins-content .mec-disc {
+  width: 80%;
+}
+
+@media screen and (max-width: 1200px) {
+  #Merchantcoins .top {
+    padding-bottom: 60px;
+  }
+}
+@media screen and (max-width: 993px) {
+  .merchantcoins-content {
+    flex-direction: column;
+  }
+  .merchantcoins-content .mec-img {
+    margin-bottom: 15px;
+  }
+  .merchantcoins-content .mec-img,
+  .merchantcoins-content .mec-disc {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .merchantcoins-content .mec-disc h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #Merchantcoins .top {
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0;
+  }
+  .merchantcoins-content .mec-disc p,
+  #Merchantcoins .top p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
