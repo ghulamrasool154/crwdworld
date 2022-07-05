@@ -7,6 +7,7 @@ const Merchantcoin03 = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-md-5  col-sm-12">
+            
               <div className="Merchantcoin03-left">
                 <div className="l-number">
                   <h2>03</h2>

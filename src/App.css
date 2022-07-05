@@ -1,13 +1,15 @@
-/* font-family: Neuropol_X_Light; */
-/* font-family: Neuropol_X_Bold; */
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans', sans-serif; */
-
+/*
+font-family: Neuropol_X_Light;
+font-family: Neuropol_X_Bold; 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+ */
 
 span.cw {
-    font-family: Neuropol_X_Light;
-    font-size: 25px;
+  font-family: Neuropol_X_Light;
+  font-size: 25px;
+  font-weight: normal;
 }
 span.cw .cwb {
-    font-family: Neuropol_X_Bold;
+  font-family: Neuropol_X_Bold;
 }

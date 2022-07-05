@@ -14,6 +14,11 @@ const Utilitytoken = () => {
 
               <div className="utility-wrapper">
                 <div className="u-left-side">
+                  <img
+                    src={mobileresponsiveoimg}
+                    alt="img"
+                    className="img-fluid mobileresponsiveoimg"
+                  />
                   <div className="left-top">
                     <p>
                       Filecoins holders can exchange filecoins for access to
@@ -32,11 +37,6 @@ const Utilitytoken = () => {
                     src={centerimg}
                     alt="img"
                     className="img-fluid diktop-circle-img"
-                  />
-                  <img
-                    src={mobileresponsiveoimg}
-                    alt="img"
-                    className="img-fluid mobile-circle-img"
                   />
                 </div>
                 <div className="u-right-side">

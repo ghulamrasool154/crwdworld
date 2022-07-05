@@ -1,7 +1,7 @@
 .Securitytoken-right p {
   font-family: "Montserrat";
   font-size: 20px;
-  color: black;
+  color: #262626;
   font-weight: 400;
   line-height: 30px;
   text-align: justify;
@@ -45,6 +45,12 @@
   }
   .securitybox p {
     line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .securitybox {
+    border-radius: 0;
   }
 }
 @media screen and (max-width: 600px) {

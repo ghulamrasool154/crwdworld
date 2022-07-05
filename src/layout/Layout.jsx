@@ -15,7 +15,7 @@ import Securitization from "../components/Securitization/Securitization";
 const Layout = () => {
   return (
     <main>
-      {/* <Home/> */}
+      <Home />
       <Ecosystem />
       <Introduction />
       <Vogon />
@@ -27,7 +27,7 @@ const Layout = () => {
       <Merchantcoin03 />
       <Indextoken />
       <Securitytoken />
-      <Securitization/>
+      <Securitization />
     </main>
   );
 };

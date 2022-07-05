@@ -9,14 +9,6 @@
   color: #262626;
   margin-bottom: 50px;
 }
-#ecosystem .leftside p {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 28px;
-  color: #1f1f1f;
-}
-
-/* right side */
 #ecosystem .rightside h2 {
   font-size: 30px;
   font-weight: 700;
@@ -54,6 +46,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .imgbox img {
   width: 100%;
   max-width: fit-content;
@@ -73,7 +66,7 @@
 #ecosystem .leftside p {
   font-family: "Montserrat";
   font-size: 20px;
-  color: black;
+  color: #262626;
   font-weight: 400;
   line-height: 30px;
   text-align: justify;
@@ -83,101 +76,93 @@
   padding-right: 50px;
 }
 
-/* 
-.col-lg-6.col-md-6.col-sm-12.col-12.positionsss:before {
-    display: block;
-    content: "";
-    width: 49%;
-    overflow: hidden;
-    height: 100vh;
-    background: #d9d9d9;
-    position: absolute;
-    z-index: -1;
-} */
-
 .blockchain {
   width: 150px;
   margin: 20px auto;
-
 }
-.blockchain img {   
-    max-width: 100%;
+.blockchain img {
+  max-width: 100%;
 }
 
 .BlockchainEcosystem ol li {
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 30px;
 }
 .BlockchainEcosystem ol li .ml {
   display: block;
   margin-left: 20px;
 }
-@media screen and (max-width : 1200px) {
-    #ecosystem .rightside {
-        height: 70%;
-        padding-left: 40px;
-    }
-    
+@media screen and (max-width: 1200px) {
+  #ecosystem .rightside {
+    height: 70%;
+    padding-left: 40px;
+  }
 }
 
-@media screen  and (max-width : 993px){
-    #ecosystem .rightside {
-        height: 60%;
-    }
+@media screen and (max-width: 993px) {
+  #ecosystem .rightside {
+    height: 60%;
+  }
 
-    #ecosystem .leftside h2{
-        font-size: 30px;
+  #ecosystem .leftside h2 {
+    font-size: 30px;
     line-height: 40px;
-    }
-    #ecosystem .rightside h2{
-        text-align: start;
-        font-size: 25px;
-        line-height: 35px;
-    }
-    /* #ecosystem .rightside{
-        height: auto;
-    } */
-    
+  }
+  #ecosystem .rightside h2 {
+    text-align: start;
+    font-size: 25px;
+    line-height: 35px;
+  }
 }
 
-@media screen  and (max-width : 768px){
-    #ecosystem .eco-left{
-        padding-right: 12px;
-    }
-    #ecosystem .rightside{
-        padding-left: 0;
-
-    }
-    .rightside .BusinessEcosystem {
-        padding-top: 60px;
-    }
-    .eco-right:before {
-     
-        width: 100%;
-        height: 40%;
-        /* height: -1; */
-        z-index: -1;
-        top: unset;
-        bottom: 0;
-    }
-    
+@media screen and (max-width: 768px) {
+  #ecosystem .eco-left {
+    padding-right: 12px;
+  }
+  #ecosystem .rightside {
+    padding-left: 0;
+  }
+  .rightside .BusinessEcosystem {
+    padding-top: 60px;
+  }
+  .eco-right:before {
+    width: 100%;
+    height: 40%;
+    z-index: -1;
+    top: auto;
+    bottom: 0;
+  }
 }
-@media screen  and (max-width : 601px){
-    .eco-right:before {
-        /* height: 48%; */
-    }
-    #ecosystem .leftside h2{
-        font-size: 25px;
-        line-height: 35px;
-        margin-bottom: 25px;
-    }
-    .BlockchainEcosystem ol li,
-    #ecosystem .rightside b,
-    #ecosystem .leftside p{
-        font-size: 15px;
-        line-height: 25px;
-    }
-    
+@media screen and (max-width: 601px) {
+  .rightside .BusinessEcosystem {
+    padding-top: 30px;
+  }
+  .col-lg-6.col-md-6.col-sm-12.col-12.eco-right {
+    position: relative;
+  }
+  .eco-right:before {
+    z-index: -1;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 100vw;
+  }
+
+  #ecosystem .leftside h2 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 25px;
+  }
+  .BlockchainEcosystem ol li,
+  #ecosystem .rightside b,
+  #ecosystem .leftside p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .BusinessEcosystem .companylogo .imgbox {
+    width: 40%;
+  }
 }

@@ -24,28 +24,32 @@ const Ecosystem = () => {
                 others. Unfortunately, they are tied to a Business Ecosystem
                 model that exploits the same “winner takes all” principles that
                 helped them dominate in their fields.
-            <br /> <br />
+                <br /> <br />
                 <strong>BLOCKCHAIN ECOSYSTEM :</strong> At CrowdPoint, we are a
                 digital platform provider.  Our digital platform is
                 decentralized cloud technology powered by Vogon Blockchain. This
                 platform enabled us to build a Blockchain Ecosystem, which we
-                call
+                call{" "}
                 <span className="cw">
-                  crwd<span className="cwb">world</span>
+                  {" "}
+                  crwd <span className="cwb"> world</span>
                 </span>
                 .  Unlike a Business Ecosystem where the owners extract the most
                 value, in crwdworld, the value is shared with its participants.
-          <br /><br />
+                <br />
+                <br />
                 Our FinTech ecosystem is powered by a Decentralized Cloud that
                 leverages its own layer 1 Blockchain protocol.
-         <br /><br />
+                <br />
+                <br />
                 This enables crwdworld to create a circular business model that
                 manages large networks of consumers and merchants, investors and
                 corporations, and savers and fund managers.
-           <br /><br />
+                <br />
+                <br />
                 <span className="cw">
                   crwd<span className="cwb">world</span>
-                </span>
+                </span>{" "}
                 wins new customers by allowing them to claim their data, engage
                 in decentralized advertising and serve them across
                 multiple businesses by delivering real-time rebates. This
@@ -63,7 +67,8 @@ const Ecosystem = () => {
                   The owners of a business ecosystem extract the most value for
                   themselves
                 </b>
-                <div className="companylogo">
+               
+               <div className="companylogo">
                   <div className="imgbox">
                     <img src={amazon} alt="amzon" />
                   </div>
@@ -82,33 +87,42 @@ const Ecosystem = () => {
                   <div className="imgbox">
                     <img src={airbnb} alt="airbnb" />
                   </div>
-                </div>
+                </div> 
               </div>
               <div className="BlockchainEcosystem">
                 <h2>Blockchain Ecosystem</h2>
                 <b>
-                  In our
+                  In our{" "}
                   <span className="cw">
-                    crwd<span className="cwb">world</span>
+                    {" "}
+                    crwd<span className="cwb">world </span>
                   </span>
                   Blockchain Ecosystem, everyone extracts value
                   <br />
                 </b>
                 <div className="blockchain">
-                  <img src={blockchainimg} alt="blockchainimg" className="img-fluid"/>
+                  <img
+                    src={blockchainimg}
+                    alt="blockchainimg"
+                    className="img-fluid"
+                  />
                 </div>
                 <ol>
                   <li>
                     <span className="ml">
-                      Claim & update your identity on 
-                      <span className="cw"> crwd <span className="cwb">did</span>
+                      Claim & update your identity on
+                      <span className="cw">
+                        {" "}
+                        crwd <span className="cwb">did</span>
                       </span>
                     </span>
                   </li>
                   <li>
                     <span className="ml">
                       Purchase Products
-                      <span className="cw"> crwd <span className="cwb">market</span>
+                      <span className="cw">
+                        {" "}
+                        crwd <span className="cwb">market</span>
                       </span>{" "}
                     </span>
                   </li>
@@ -123,11 +137,12 @@ const Ecosystem = () => {
                   </li>
                   <li>
                     <span className="ml">
-                      Purchase new products or invest in companies using digital assets on 
-
-                      <span className="cw"> crwd <span className="cwb">finance</span>
+                      Purchase new products or invest in companies using digital
+                      assets on
+                      <span className="cw">
+                        {" "}
+                        crwd <span className="cwb">finance</span>
                       </span>
-
                     </span>
                   </li>
                 </ol>

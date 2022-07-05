@@ -8,11 +8,16 @@ const Prospective = () => {
         <div className="container">
           <div className="row">
             <div className="leftside-pro">
-                <Heading title="Our prospective utility token" subtitle="is called the vogonAg Token for
-                Vogon Utility" />
-              <h2>
-                 
-              </h2>
+              <div className="heading">
+                <h2>
+                Our prospective utility token <br /> is called the <span className="cw">
+                vogon</span>Ag Token for
+                Vogon Utility
+                </h2>
+              </div>
+                {/* <Heading title="Our prospective utility token" subtitle="is called the vogonAg Token for
+                Vogon Utility" /> */}
+           
               <p>Vogon is a decentralized cloud and blockchain platform</p>
               <p>
               The vogonAg Token will be a hybrid utility token and a foundation for Vogon utility transactions and for equity tokens and merchant coins designed to function as a transaction processor for both API calls and financial settlements within the CrowdPoint ecosystem
@@ -31,7 +36,13 @@ const Prospective = () => {
 
               </p>
 
-              <Heading title="vogonAg tokens serving as the Vogon utility are only purchasable as non-fractionalized grams through precision pricing." />
+              <div className="heading">
+                <h2>
+               <span className="cw">
+                vogonAg</span> tokens serving as the Vogon utility are only purchasable as non-fractionalized grams through precision pricing.
+                </h2>
+              </div>
+             
 
             </div>
           </div>
@@ -43,7 +54,7 @@ const Prospective = () => {
             <div className="col-lg-6 col-md-6 col-sm-12 leftside">
               <ul>
                 <li> <span className="iconss"><i className="fa-solid fa-circle-check"></i></span>
-                Investors will purchase vogonAg (i.e., Swap Contract) pegged to a specific price of Silver per gram. <br /><br />
+                Investors will purchase <span className="cw"> vogonAg </span> (i.e., Swap Contract) pegged to a specific price of Silver per gram. <br /><br />
                 </li>
              
               <li>
@@ -55,29 +66,29 @@ const Prospective = () => {
               <span className="iconss"><i className="fa-solid fa-circle-check"></i></span>
                 Investors will experience accretive benefits as more users adopt
                 Vogon / CrowdPoint; this will be due to speculation of the
-                growth potential of vogonAg
+                growth potential of <span className="cw"> vogonAg </span>.
               </li>
               </ul>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 rightside">
               <div className="content">
               <b>
-              Is vogonAg a security per the Howey Test? <br />
+              Is <span className="cw"> vogonAg </span> a security per the Howey Test? <br />
               </b>
               <p>
-              No – vogonAg will have
+              No – <span className="cw"> vogonAg </span> will have
               consumptive use qualities .
               </p>
               <b>
-              Can you mine vogonAg? <br />
+              Can you mine <span className="cw"> vogonAg </span>? <br />
 
               </b>
               <p>
-              No – Since vogonAg uses a proof-of-stake consensus mechanism, it uses validators vs. miners to operate the Blockchain.
+              No – Since <span className="cw"> vogonAg </span> uses a proof-of-stake consensus mechanism, it uses validators vs. miners to operate the Blockchain.
               </p>
               <ul>
                 <li>
-                vogonAg will be used to purchase Merchant Coins within the CrowdPoint Ecosystem. Merchant Coins will be used to purchase security tokens
+                <span className="cw"> vogonAg </span> will be used to purchase Merchant Coins within the CrowdPoint Ecosystem. Merchant Coins will be used to purchase security tokens
 
                 </li>
               </ul>
