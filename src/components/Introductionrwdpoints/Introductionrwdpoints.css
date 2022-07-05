@@ -93,6 +93,10 @@
   }
 }
 @media screen and (max-width: 600px) {
+  #Introductionrwdpoints .bottom p{
+    font-size: 15px;
+    font-weight: normal;
+  }
   #crwdpoints .bottom p {
     font-size: 15px;
     line-height: 25px;
